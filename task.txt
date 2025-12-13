@@ -1,0 +1,456 @@
+* write a code  to print if a number is even or odd .
+
+***** write a code to return if a number is perfect sqaure  root ( return true if it is perfect square root 
+ and return false if it is not).
+
+****** write a code to return if a number is prime or not ( return true if it is prime)
+
+------------------------------------------------------------------------------------------------------------------
+
+13/01/2025
+
+* explore for loop in c++
+
+**what does for loop does in code ?
+
+
+ans)   for loop is a looping command used in coding languages.  it has three parts inside it . the parts are as follows - 
+
+        i)  in this part which is denoted by  ( int i= ___ ) some value which is initialising of for loop.
+        ii) in this part what we do is we give the limit till which the loop will go    .
+        for ex ---   i <n; i< 20 etc; 
+
+        iii) this is third part of for loop criteriaa which is denoted as i++ or any other integer. 
+                        i--
+
+
+ overall for loop works in a way  that first it statrts at first place and then checks if the condition meet , then goes inside the loop and 
+  prints the desired output . After this  given (i++ )  means it increaes by next value and then checks again the condition( i.e. i<n )
+ and then again goes  inside the loop'
+ *It keeps performing till condition is met . and when it does not meet the given condition it goes out of the loop and ends the for loop .
+
+  it is widely used looping command in c++.
+
+
+
+
+
+* print each number from 1 to n (taking n as input )
+----------------------------------------------------------------------------------------------------------------------
+
+
+16/01/2025
+
+
+
+* print letter O,N,Y in the desired pattern .
+total row length 5 
+
+(DONE)
+
+---------------------------------------------------------------------------------------------------------
+
+18/01/2025
+
+*write a program to find the area of  a recatangle  with l = 5 and b= 3.
+
+*write a program to find the area of circle with radius = 10 cm 
+
+*print the square of numbers from 0 to 10 .
+
+*go with modules of codeacademy .
+
+-------------------------------------------------------------------------------------------------------
+
+ 19- 01 - 2025 
+
+
+ * write a program  to  take  radius of a circle as input and find its area.
+
+ *write aprogram to take base and height of a triangle as input and return the area.
+
+ *find out the difference of cout and return in c++ and write down your  observations.
+ ans) simply what i undestand about cout and return is that cout is used to pirnt the desired output from the  process you want to perform 
+
+  while return is mainly described as the way  which is used to directly  give the result without any indirect approach.
+   return at last describes that the code has been finally processed and executed correctly.
+
+
+
+________________________________________________________________________________---
+
+20/01/2025
+
+
+* write a program to check if a number is a perfect square or not .
+
+
+* write a program to check if a number is prime or not .
+ 
+ take number as input in both case 
+ cout if yes ( based  on cin)
+---------------------------------------------------------------------------------------------------------------
+
+21/01/2025
+
+* look at the prime code in deep . use chat gpt and other resources and write the explainatuon of each line of code in  ur own words . 
+
+
+Ans)
+the code written is used to to check if a number is prime or composite and return its value as prime or not .
+step by step explanation of the code is as follows -
+
+1) #include<iostream> -- so we used iostrean stands for input output stream. it is used to  takes the input and gives the output of  code.
+2) using namespace std -- iska kaam hota hai  to avoid using std baar baar in  printing the output ..
+3) int main () --- iska kaam hota hau yaha se main code start hota  hai iske andar code ka main task hota hai what to do, what to print etc.
+
+NOW main part of code  begins  ----------
+4) bool check=  yaha pe humne  ek  check name ka ek bool data type declare kiya hai that return the value in true or false.
+ iska kaam yaha pe check krna hai ki koi number prime hai to true or false for if its not prime.
+
+ 5)int noofloop --- isme humne ek integer declare kiya hai noofloop name se that is assigned the value of 3. iska mtlb hai ki  memory me  ek place me 3 assign hua haui as a integer variable value.
+
+ 6)while(noofloop>0) --  isme humne while loop ka use kiya hai jisme humne noofloop  ko initialise kiya hai wo bhi 1 se hoga . 
+
+ 7) int n -- isme humne ek integer n declare kiya hai thau is mainly used to give the input value of  jo number hume check krna hoga to be prime or not ,
+  
+  8) cout --- isme humne normally use kiya hai to  print the value of n show  krnege ache se 
+  9) cin --- isme hum input denege the  value we want to check prime or not ,
+
+  10) for () --- ab humne  for loop use kiya that is mainly used for cheking the prime or not ,
+
+      ## ismew humne sabse pahle int i = 2 se initilaise kiya bcoz as 1  eveyr number is already divisibel by 1 so directly 2 se start krna hoga and then  i jo hai wo less than or equal to n-1  rahega as n ko hi check krna hai then wo number wahi tak check kr sakte hau number itself  se ek kam tak, 
+      then humne i ++ use kiya hau jiska mtlb hai i will keep increasing till the loop condition is true  .
+
+      11) if() == humne for loop ke andar if ka use kiya hai jisme humsne show kiya hai ki agar n jo value humne liya hau if it is totalyy divisble by i ( mtlb giving divisble == 0 ) tab wo prime nhi rahega 
+      iska mtlb hai ki wo number 1 and number itslef ke alaqwa kisi aur number se divisible ho gya ha fully iska mtlb uske aur factor hai which means it is not prime in nature ,
+       phir humne cout ka use kiya hau to print the number is not prime 
+       and iske baad wo phir check = 0 dega jiska mtlb hai wo false de dega as  humne bool me declare kiya hai  ki to give true  only if it is prime  ..
+        iske baad humne break  use kiya hai ab aage krna ka koi mtlb nhi rahega as ab aage prime check krna ka koi reason nhi hai 
+
+
+       12) if(check ==1 )--- iska mtlb hai  out of for loop agar wo prime number nhi diya for loop ke andar then ab wo  check krege ki number is prime agar check  ki value 1 ke equal aa jati hau 
+       tab wo  ouput prinyt krega  number is prime 
+
+       13) noofloop --- iska maine pahli baar use dekha hai and iska kaam hota hau ki while loop jo humne use kiya hai wo  kam hota jayega and last me end ho jayega while loop ;
+
+       14) check = 1 -- iska use humne kiya hau yaha be bool ka jo hai agar wo prime dega tab wo true return kr dega mtlb  0 for having  not prime number  and  1 for if it is prime number.
+
+
+       *** iske  baad while loop emd ho  jayega and last  me main functuion wala loop emd hota haiu 
+       \
+        and hume last me  humara desired output milega .
+        
+        
+        
+    
+----------------------------------------------------------------------------------------------------------------------
+
+24/01/2025
+
+*find a better way to check a number is prime or  not .
+
+------------------------------------------------------------------------------------------------------------------------------------------l-------
+
+*Take a number n > 100 and calculate the sum of its digits.
+(cout (sum of digits ))
+(take input  n > 100 and cout sum of its digits)
+
+* take a number n as input and find out if it is divisble by 3.
+
+*solve another 3 modules. 
+
+
+---------------------------------------------------------------------------------------------------------------------------
+29 - 01 - 2025
+
+
+*Take a number n > 100 and calculate the sum of its digits.
+(cout (sum of digits ))
+(take input  n > 100 and cout sum of its digits)
+
+*do next modules
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+30 /01/ 2025
+
+*take 5 inputs and go through the code 
+
+*solve modules  and revise from start.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+01/02/2025
+
+*take 5 inputs .(go with code of sum of digits)
+*revise modules
+*take 2 numbers as input m and n  and check if n is divisble by m .
+(cout  true if divisble  and vice versa.)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------=---
+
+
+08/02/2025
+
+*solve other modules
+**take 5 inputs .(go with code of sum of digits)
+
+____________________________________------------------------------------------------------------------------------------------------------
+
+
+20/03/2025
+
+1. Sum of Elements
+
+Write a function that takes a vector of integers as input and returns the sum of its elements.
+
+2.Find Maximum Element
+
+Write a function that takes a vector of integers and returns the maximum value.
+
+
+______________________-------------------------------------------------------------------------------------------------------------------
+
+21/03/2025
+
+1. write the explanation of both the programs in very detail explaining each line.
+
+Ans) firstly we have used the iostream library and uske baad vector library include kiya hai to use all the commmands of the vector .
+uske baad humne ek function define kiya hai having name as  sum_of_vector name se jiska return type integer hai  uske andar ek vector input  diya hai int type ka having name v1.
+after this we defined the integer sum which is initially zero and then ek for loop use kiya hai that defines 
+from i = 0 se lekar i ki value less than size of vector se ho and then for loop ke inside humne define kiya hau total_sum = total_sum+ current  element
+in order of the vector till whole element of the vector is added. and then humne return kiya hai  total sum of the elements of the vector.
+
+same tarike se humne ek new function define kiya hau with the name max_element jiska return type integer hai  and uske andar ek vector input  kiya hai of integer type ka.
+
+phir humne pahle max_number ko hum INT_MIN  se initialise hai and after that we have used a for loop jisme humne  i ko 0 se start krke till the size of vector
+v2 tak le jayenege and  uske anadar  we have used if condititon that mainly defines the condition ki agar maan lo koi specific eleent jisko hum check kr
+rahe at the specific  time agar wo abhi tak ke max element  se bada hai to max element ko uodate kr do current element ki valus se.
+uske baad hum return kr rahe hai max_number outside of for loop.
+
+at last me we have cout the two values that is vector value diya hai for  
+i) sum of vector ka
+ii) maximum element ka kisi bhi vector me jisme hum koi bhi values le sakte hai .
+
+
+
+
+
+
+2.during the meet you have to run the program line by line for five different examples without actually 
+  running the code.
+
+----------------------------------------------------------------------------------------------
+
+22/03/2025
+
+ 1.Count Even and Odd Numbers
+Write a function to count the number of even and odd elements in a vector.
+
+2. Find the Frequency of an Element
+Write a function to count how many times a given number appears in a vector.
+
+--------------------------------------------------------------------------------------------
+
+26/03/2025
+
+1.Find the Index of an Element
+Write a function to find the index of a given element in a vector. If the element is not found, return -1.
+
+2. Check if a Vector is Palindromic
+Write a function to check if a vector reads the same forward and backward.
+
+----------------------------------------------------------------------------------------------------------------
+
+27/08/2025
+
+ Find the Second Largest Element
+Problem: Write a function to find the second largest element in a vector.
+📌 Function Signature: int second_largest(vector<int> v)
+
+----------------------------------------------------------------------------------------
+
+28/08/2025
+
+1.write hindi explantion of second largest code line by line .
+
+
+  ** sabse pahle humne iostream and vector and maths library usekiya hai then uske baad ek  max_element name se function banya hai iske andar v2 name ka
+  vector ek parameter hau then humne  max_number ka ek variable declare kiya hai and uski value hai bahut kam because taaki agar saari values   negative hai
+  tab bhi sahi result de ;phir ek for loop use kiya hai then uske baad 
+ if condition ka use kiya hai and the condition is agar max_number jo hai wo v2[i] element se chota hoga then max_number ki value us v2[i] element
+ se update ho jayega and iske baad for loop end hone ke baad  humne max_number ki value return kiya hai .
+
+ ** phir humne ek second_largest name ka function liya hau and uske andar vector type  ka v1 name ka parameter liya hau . phir humne int 
+ max_number_v1 name ka ek integer define kiya hai jiski value hum max_number wale upar wale function se laayega ;
+ phir humne ek d name ka integr liya hai and jiski value humne INT32_MAX liya hai as ye sabse badi value tak ja sakta hai . and yaha pe humne ek
+  second index name ka integer define kiya hai .
+
+ phir humne ek for loop use kiya hai jiske baad humne ek if condition ka use kiya hai jiske andr humne do connditoon diya hai 
+ i)max_number_v1 - v1[i]<d 
+ ii}  max_number_v1 - v1[i] > 0
+
+ hona chaoye jiske baad d ki vlaue max_number of v1 vector - v1[i]  ke equal hoga and second index ka value i index se update ho jayega.
+ phir hum for loop ke baahar aane ke baad v1 me secondindex ka jo value hoga wo returnn kr rahe hai .
+
+ **** phir hum ek main  function banaya hau and uske andr humne vector  of integer type name v ko declare kiya hai and phir uske baad usme values
+  diya hau and at last me  second_largest  wale function ko cout kiya and that will give the value of second largest element of v vector .
+
+
+
+
+2. try to write a function  for finding second smallest  number in a vector.
+
+
+-----------------------------------------------------------------------------------------------
+
+30/03/2025
+
+1. List down  every method we use for vector with their objectives.(atlest 6 ) and explore them .
+
+* vector.push_back() - it is  use to add  values inside the back of vector .
+* vector.pop_back() - it is used to remove  element from  back  of an vector.
+* vector.size()- it is used to tell the size of vector(means how many elements are there present 
+  inside of a specific vector).
+* vector.clear()- it is used to clear all the values inside of a vector.
+*vector.insert()- it is used to add any value at specific positon inside of a vector.
+*vector.erase()- it is used to remove any value from specific position inside of a vector.
+*vector.front()- it gives the value from starting index of the vector.
+*vector.back()- it gives the value of last index of the  vector.
+* vector.swap()- it is used to swap values from two vector to esch other.
+ 
+                        
+
+2. revise codeacademy modules.
+----------------------------------------------------------------------------------------------------------------
+
+01/04/2025
+1. write code for - 26. Remove Duplicates from Sorted Array in leetcode.
+(whatever u undestand in hindi in code itself)
+
+------------------------------------------------------------------------------------
+
+09/04/2025
+
+1. write hindi explanation of how u would approach this problem 
+66. Plus One
+
+
+
+Ans) in this code mainly what we do is ki isme humko ek vector return krna hai just like ki agar wo  given vector me agar last index wali digit 9 hai then usme 1 add kr dena 
+hai and phir uske hisab se aayi hui value ko return krns hai and ye process humko tab tak krte jaana hau jab tak digits me 9 hai and uske just pahle wali index ki value change
+krne ke baad wahi se band kr dena hai aage ka change krna of digits ka .
+
+
+** mainly agar koi bhi digits 9 nhi hai then humko normally 1 add krna hai last digit  me and jo sum aayega wahi digits humko return krni hohgi ye ek case hai and 
+the second case is if the last digit is 9 and then usme hunko 1 add krnege then jo sum aaygege number ka wo digits return krna hai .
+also isme for loops and if conditions ka use krna hoga .
+
+
+------------------------------------------------------------------------------------------------
+
+11/04/2025
+
+1. write hindi explanation of how u would approach this problem  66. Plus One
+
+
+ex 1- digits = {4,5,9,3}
+output =       {4,5,9,4}
+** in this what we mainly do is ki last  index element is not equal to 9 then nomrally  last index ke element me 1 add kr denenge and uske baad hum 
+     jo sum  aaya hai uski value ko return kr denge in form of vector.
+
+
+ex 2 - digits = {4,7,9,9,9}
+output = [4,7,0,0,0]
+ in this what will happen is that the    while condition defining i == 9 then isme hoga aise ki jab tak index ki value 9 hog then usme 0 se update hota jayega  and
+ else condition ka use krke i-- se peeche aayega and usme +1 hota rahega and jaise hi while condition of ( i == 9) fail hoga immediate wo baahar aa jayega and then 
+ just usken pahle wali index ki value  me +1 kr denege and phir wahi se updated vector ko return kr denege.
+
+
+
+ex 3 - digits = {9}
+       output = {1,0}
+** in this example the approach will be like ki  because isme index ki value 9  hai then isme  last wala index ka value 0 se update ho jayegga and phir else condition ka 
+use krke hum ek index peeche aayenege and us index me 1 add kr denege and hum digits ka updated value return kr  denge .
+
+ex 4 - digits = {9,9,9}
+       output = {1,0,0,0}
+ same in this case too hum isme last index pe 9 hai value then usme  hum last inde me 0 se update kr denge amd uske peeche wale jitne bhi index hai usme 
+  0 se update kr denge and  else comditiion ke hisab se index ki value ek kam hoti rahegii and usme hum 1 add krte rahnege and us hisab se tab tak krnege jab tak
+  0 index pe nhi aa jaate and phir last me hum updated vector ki value return kr denge .
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+14/04/2025
+
+1) perform this question again 
+   136. Single Number
+2. Write the approach of this problem in hindi with min two examples and verify if u are getting thr right answer .
+
+in this code what we are doing is that given one vector in which  we have to return the element appeared only once in vector.
+ isme hum krenege ki sabse pahle first element ko bache hue saare element se compare krnnege and agar wo element ke equal koi aur element aaya then hum 
+   aage bad jayenge and then hum next element ko remaining element se compare krenege and agar wo element repeat nhi hua hai vector me then uski value return kr denege.
+
+
+   the approach is mainly using a for loop and then comparing  element at index 0 to remaining element and doing it till we found the unrepeated element fromm the vector.
+
+   ex-- {4,3,5,3,4}
+    isme hum sabse pahle 4 ko compare krnege from 3 , then 5, tab bhi dono equal nhi hai uske aage hum 3 se phir krnege and laast me 4 se krnege jaise hi humko  4 == 4 hoga
+     then  wo value return nhi krega and aage wale element pe bad jayega and then hum 3 ko  krnege compare fron 5,3,4 and then hum 
+      5 ko compare krenege from  3 and 4 . jisme hume 5 ke eqwual koi element nhi milrge and then hum is number ko return kr denege as ye repeat  nhi hua hai .
+
+      ex -- {4}
+      is case me hum direcetly wahi number return kr denge as aur koi element hai hi nhi vector ke andar .
+
+      ex -- {5,5,5,9} 
+       is case me hum pahle 5 ko compare krenege remaining element se and then last me 9 ko compare krenege saare element se and then 
+       9 return ho jayegaa.
+       ex -- {3,6,7,6,7}
+        isme hum 3  ko compare krenege saare element se and then hum aage check krnege remain element ko  and last me hume keval 3 hi milege jo repeat nhi hua hau 
+         then wo value return  ho jayegi.
+         
+
+
+
+   --------------------------------------------------------------------------------------------------------------------------
+
+
+   28/07/2025
+
+   revise  5 code written till now.
+   (use any resources).
+   1) sum_digits
+   2) vec_sum
+   3) 1 to n (to print the nummbers)
+   4)vector_commands
+   5) second_largest(have some confusion in it).
+
+   ----------------------------------------------------------------
+   29/07/2025
+
+   1) understand  second_largest. 
+   2)
+
+   --------------------------------------------------------------------------------
+   29/08/2025
+   1) make three different types of functions and  visit them thoroughly and with command on it ,
+
+   ------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

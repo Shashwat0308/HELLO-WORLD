@@ -1,0 +1,68 @@
+Here are some C++ questions related to vectors and functions to practice:
+
+Basic Level
+
+Sum of Elements
+
+Write a function that takes a vector of integers and returns the sum of its elements.
+
+Find Maximum Element
+
+Write a function that finds the maximum element in a given vector.
+
+Reverse a Vector
+
+Write a function that reverses the elements of a vector without using reverse().
+
+Count Occurrences
+
+Write a function that counts how many times a given element appears in a vector.
+
+Check if an Element Exists
+
+Write a function that checks whether a given element exists in a vector.
+
+Intermediate Level
+
+Merge Two Vectors
+
+Write a function that merges two sorted vectors into a single sorted vector.
+
+Remove Duplicates
+
+Write a function that removes duplicate elements from a vector.
+
+Rotate a Vector
+
+Write a function that rotates a vector k positions to the right.
+
+Find First and Last Occurrence
+
+Write a function that returns the first and last index of a given number in a vector.
+
+Sort a Vector
+
+Write a function to sort a vector in ascending order without using sort().
+
+----------------------------------------------------------------------------------------------------------------------
+Advanced Level
+Find Second Largest Element
+
+Write a function to find the second largest element in a vector.
+
+Pair Sum Problem
+
+Given a vector of integers and a target sum, find all pairs whose sum is equal to the target.
+
+Subarray with Maximum Sum (Kadane’s Algorithm)
+
+Write a function to find the subarray with the maximum sum.
+
+Find the Intersection of Two Vectors
+
+Write a function that finds the common elements between two vectors.
+
+Binary Search in a Sorted Vector
+
+Write a function that performs binary search on a sorted vector.
+
