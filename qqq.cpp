@@ -1,13 +1,1 @@
- #include<iostream>
- using namespace stfd;
-
-
-
- int main(){
-
-
-
-
-
-     return 0;
- }
+#include<iostrea
